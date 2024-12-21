@@ -9,7 +9,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
             <img
-              src="/images/logo.svg"
+              src="./images/logo.svg"
               width={40}
               height={40}
               alt="Logo"
@@ -32,7 +32,7 @@ const Header = () => {
         <a
           href="#contact"
           className="btn btn-secondary max-md:hidden md:justify-self-end">
-          Contact Me
+          Contact
         </a>
       </div>
     </header>
