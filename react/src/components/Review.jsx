@@ -10,44 +10,44 @@ const reviews = [
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Jan van Beek",
+    name: "Recensent",
     imgSrc: "../../portfolio/images/people-1.jpg",
-    company: "Bedrijf 1",
+    company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Jonathan Joost",
-    imgSrc: "../../portfolio/images/people-2.jpg",
-    company: "Bedrijf 2",
+    name: "Recensent",
+    imgSrc: "../../portfolio/images/placeholder.png",
+    company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Willem ter Steegen",
-    imgSrc: "../../portfolio/images/people-3.jpg",
-    company: "Bedrijf 3",
+    name: "Recensent",
+    imgSrc: "../../portfolio/images/placeholder.png",
+    company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Noa Veer",
-    imgSrc: "../../portfolio/images/people-4.jpg",
-    company: "Bedrijf 4",
+    name: "Recensent",
+    imgSrc: "../../portfolio/images/placeholder.png",
+    company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Jesse Zand",
-    imgSrc: "../../portfolio/images/people-5.jpg",
-    company: "Bedrijf 5",
+    name: "Recensent",
+    imgSrc: "../../portfolio/images/placeholder.png",
+    company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Fred Teler",
-    imgSrc: "../../portfolio/images/people-6.jpg",
-    company: "Bedrijf 6",
+    name: "Recensent",
+    imgSrc: "../../portfolio/images/placeholder.png",
+    company: "Bedrijf",
   },
 ];
 
