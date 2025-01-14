@@ -2,39 +2,39 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "../../portfolio/images/project-1.jpg",
+    imgSrc: "../../portfolio/images/placeholder-project.png",
     title: "Oog & Onderwijs",
-    tags: ["CMS", "API", "Development"],
+    tags: ["Svelte", "Strapi"],
     projectLink: "https://u230654.gluwebsite.nl/index.html",
   },
   {
-    imgSrc: "../../portfolio/images/project-2.jpg",
+    imgSrc: "../../portfolio/images/focus6.png",
     title: "Focus6",
-    tags: ["CMS", "API"],
+    tags: ["Svelte", "WordPress"],
     projectLink: "https://focus6.nl/",
   },
   {
-    imgSrc: "../../portfolio/images/project-3.jpg",
+    imgSrc: "../../portfolio/images/annexbios.png",
     title: "AnnexBios",
-    tags: ["Development", "API"],
+    tags: ["PHP", "phpMyAdmin", "API"],
     projectLink: "https://u230654.gluwebsite.nl/annexbios/",
   },
   {
-    imgSrc: "../../portfolio/images/project-4.jpg",
+    imgSrc: "../../portfolio/images/hoveniers.png",
     title: "H.H. Hoveniers",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://u230654.gluwebsite.nl/index.html",
+    tags: ["Svelte", "Custom CMS"],
+    projectLink: "https://u230654.gluwebsite.nl/hendrik-hogendijk-hoveniers/",
   },
   {
-    imgSrc: "../../portfolio/images/project-5.jpg",
+    imgSrc: "../../portfolio/images/apple.png",
     title: "Apple (Clone)",
-    tags: ["eCommerce", "Development"],
+    tags: ["PHP", "eCommerce"],
     projectLink: "https://u230654.gluwebsite.nl/apple/",
   },
   {
-    imgSrc: "../../portfolio/images/project-6.jpg",
-    title: "Lorem Ipsum",
-    tags: ["Web-design", "Development"],
+    imgSrc: "../../portfolio/images/placeholder-project.png",
+    title: "Project",
+    tags: ["Tag", "Tag"],
     projectLink: "https://u230654.gluwebsite.nl/index.html",
   },
 ];
