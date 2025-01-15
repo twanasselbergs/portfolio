@@ -57,7 +57,7 @@ const Skills = () => {
       <div className="container">
         <h2 className="headline-2 reveal-up">Dé essentiële tools</h2>
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
-          Bekijk de tools en technologieën die ik dagelijks gebruik, van
+          Hieronder de tools en technologieën die ik dagelijks gebruik, van
           designsoftware tot databases.
         </p>
 

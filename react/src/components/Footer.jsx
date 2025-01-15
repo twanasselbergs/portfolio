@@ -36,7 +36,7 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="section mb-8 xl:mb-16">
+    <footer className="section mb-6 xl:mb-16">
       <div className="container">
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">

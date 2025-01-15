@@ -5,7 +5,7 @@ const works = [
     imgSrc: "../../portfolio/images/placeholder-project.png",
     title: "Oog & Onderwijs",
     tags: ["Svelte", "Strapi"],
-    projectLink: "https://u230654.gluwebsite.nl/index.html",
+    projectLink: "https://u230654.gluwebsite.nl/",
   },
   {
     imgSrc: "../../portfolio/images/focus6.png",
@@ -35,7 +35,7 @@ const works = [
     imgSrc: "../../portfolio/images/placeholder-project.png",
     title: "Project",
     tags: ["Tag", "Tag"],
-    projectLink: "https://u230654.gluwebsite.nl/index.html",
+    projectLink: "https://u230654.gluwebsite.nl/",
   },
 ];
 
