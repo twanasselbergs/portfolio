@@ -20,7 +20,7 @@ const skillsItem = [
     desc: "CMS",
   },
   {
-    imgSrc: "../../portfolio/images/javascript.svg",
+    imgSrc: "../../images/javascript.svg",
     label: "JavaScript",
     desc: "Programmeertaal",
   },

@@ -11,42 +11,42 @@ const reviews = [
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/people-1.jpg",
+    imgSrc: "../../images/people-1.jpg",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/placeholder.png",
+    imgSrc: "../../images/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/placeholder.png",
+    imgSrc: "../../images/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/placeholder.png",
+    imgSrc: "../../images/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/placeholder.png",
+    imgSrc: "../../images/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../portfolio/images/placeholder.png",
+    imgSrc: "../../images/placeholder.png",
     company: "Bedrijf",
   },
 ];

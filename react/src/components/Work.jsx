@@ -2,37 +2,37 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "../../portfolio/images/placeholder-project.png",
+    imgSrc: "../../images/placeholder-project.png",
     title: "Oog & Onderwijs",
     tags: ["Svelte", "Strapi"],
     projectLink: "https://u230654.gluwebsite.nl/",
   },
   {
-    imgSrc: "../../portfolio/images/focus6.png",
+    imgSrc: "../../images/focus6.png",
     title: "Focus6",
     tags: ["Svelte", "WordPress"],
     projectLink: "https://focus6.nl/",
   },
   {
-    imgSrc: "../../portfolio/images/annexbios.png",
+    imgSrc: "../../images/annexbios.png",
     title: "AnnexBios",
     tags: ["PHP", "phpMyAdmin", "API"],
     projectLink: "https://u230654.gluwebsite.nl/annexbios/",
   },
   {
-    imgSrc: "../../portfolio/images/hoveniers.png",
+    imgSrc: "../../images/hoveniers.png",
     title: "H.H. Hoveniers",
     tags: ["Svelte", "Custom CMS"],
     projectLink: "https://u230654.gluwebsite.nl/hendrik-hogendijk-hoveniers/",
   },
   {
-    imgSrc: "../../portfolio/images/apple.png",
+    imgSrc: "../../images/apple.png",
     title: "Apple (Clone)",
     tags: ["PHP", "eCommerce"],
     projectLink: "https://u230654.gluwebsite.nl/apple/",
   },
   {
-    imgSrc: "../../portfolio/images/placeholder-project.png",
+    imgSrc: "../../images/placeholder-project.png",
     title: "Project",
     tags: ["Tag", "Tag"],
     projectLink: "https://u230654.gluwebsite.nl/",
