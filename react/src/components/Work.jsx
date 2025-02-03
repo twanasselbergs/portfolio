@@ -32,10 +32,10 @@ const works = [
     projectLink: "https://u230654.gluwebsite.nl/apple/",
   },
   {
-    imgSrc: "../../images/placeholder-project.png",
-    title: "Project",
-    tags: ["Tag", "Tag"],
-    projectLink: "https://u230654.gluwebsite.nl/",
+    imgSrc: "../../images/ns.png",
+    title: "NS Bord",
+    tags: ["PHP", "API"],
+    projectLink: "https://u230057.gluwebsite.nl/ns_bord/",
   },
 ];
 
