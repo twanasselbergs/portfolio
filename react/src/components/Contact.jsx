@@ -44,9 +44,9 @@ const Contact = () => {
             Contacteer me
           </h2>
 
-          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-            Neem vandaag nog contact op om jouw project te bespreken, laten we
-            samen tot iets moois komen!
+          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[45ch] reveal-up">
+            Wilt u contact met mij opnemen? Dat kan! U kunt gebruik maken van
+            het contactformulier of mijn e-mailadres.
           </p>
 
           <div className="flex items-center gap-2 mt-auto">
@@ -57,8 +57,8 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 grid place-items-center ring-2 ring-inset ring-zinc-50/5 
-                rounded-lg hover:bg-zinc-50 duration-500 transition-[background-color, color] hover:text-zinc-950
-                active:bg-zinc-50/80 reveal-up">
+                rounded-2xl hover:bg-zinc-50 transition-[background-color, color] hover:text-zinc-950
+                active:bg-zinc-50/80 reveal-up duration-500">
                 {icon}
               </a>
             ))}
