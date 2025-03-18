@@ -31,9 +31,9 @@ const reviews = [
   {
     content:
       "Het was een fantastische ervaring! Ik heb er een mooie website voor teruggekregen.",
-    name: "Focus6",
-    imgSrc: "../../images/focus6-logo.png",
-    company: "Bedrijf",
+    name: "Arthur Nijlant",
+    imgSrc: "../../images/placeholder.png",
+    company: "Focus6",
   },
   {
     content:
