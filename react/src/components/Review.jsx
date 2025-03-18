@@ -30,9 +30,9 @@ const reviews = [
   },
   {
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
-    name: "Recensent",
-    imgSrc: "../../images/placeholder.png",
+      "Het was een fantastische ervaring! Ik heb er een mooie website voor teruggekregen.",
+    name: "Focus6",
+    imgSrc: "../../images/focus6-logo.png",
     company: "Bedrijf",
   },
   {

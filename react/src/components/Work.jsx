@@ -27,15 +27,15 @@ const works = [
   },
   {
     imgSrc: "../../images/apple.png",
-    title: "Apple (Clone)",
+    title: "Apple Shop",
     tags: ["PHP", "eCommerce"],
     projectLink: "https://u230654.gluwebsite.nl/apple/",
   },
   {
     imgSrc: "../../images/ns.png",
     title: "NS Bord",
-    tags: ["PHP", "API"],
-    projectLink: "https://u230057.gluwebsite.nl/ns_bord/",
+    tags: ["Vue", "API"],
+    projectLink: "https://u230061.gluwebsite.nl/",
   },
 ];
 
@@ -45,7 +45,7 @@ const Work = () => {
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">Mijn portfolio projecten</h2>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+        <div className="grid gap-x-6 gap-y-8 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}

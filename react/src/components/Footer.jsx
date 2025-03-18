@@ -60,7 +60,7 @@ const Footer = () => {
                   <li key={key}>
                     <a
                       href={href}
-                      className="block text-sm text-zinc-400 hover:text-zinc-200 py-1 transition-colors reveal-up">
+                      className="block text-sm text-zinc-400 hover:text-zinc-200 py-1 transition-colors duration-500 reveal-up">
                       {label}
                     </a>
                   </li>
@@ -77,7 +77,7 @@ const Footer = () => {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block text-sm text-zinc-400 hover:text-zinc-200 py-1 transition-colors reveal-up">
+                      className="block text-sm text-zinc-400 hover:text-zinc-200 py-1 transition-colors duration-500 reveal-up">
                       {label}
                     </a>
                   </li>
@@ -87,11 +87,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-10 mb-8">
-          <a href="/" className="logo reveal-up">
-            <img src="./images/logo.svg" width={40} height={40} alt="Logo" />
-          </a>
-
+        <div className="flex items-center justify-end pt-10 mb-8">
           <p className="text-zinc-500 text-sm reveal-up">
             &copy; 2025 <span className="text-zinc-300">Twan Asselbergs</span>
           </p>
