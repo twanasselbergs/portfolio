@@ -14,7 +14,7 @@ const About = () => {
     <section id="over-mij" className="section">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 md:p-12 rounded-3xl reveal-up">
-          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[72ch]">
             "Ik ben een gepassioneerde en leergierige student die momenteel
             softwareontwikkeling studeert aan het Grafisch Lyceum Utrecht. Ik
             heb een sterke interesse in full-stack development en ontwikkel

@@ -27,7 +27,7 @@ const works = [
   },
   {
     imgSrc: "../../images/apple.png",
-    title: "Apple Shop",
+    title: "Apple",
     tags: ["PHP", "eCommerce"],
     projectLink: "https://u230654.gluwebsite.nl/apple/",
   },

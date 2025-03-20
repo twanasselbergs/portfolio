@@ -44,9 +44,9 @@ const Contact = () => {
             Contacteer me
           </h2>
 
-          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[45ch] reveal-up">
-            Wilt u contact met mij opnemen? Dat kan! U kunt gebruik maken van
-            het contactformulier of mijn e-mailadres.
+          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[55ch] reveal-up">
+            Wilt u contact met mij opnemen? Dat kan! <br /> U kunt gebruik maken
+            van het contactformulier of mijn e-mailadres.
           </p>
 
           <div className="flex items-center gap-2 mt-auto">
