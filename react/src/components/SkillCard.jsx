@@ -18,7 +18,7 @@ const SkillCard = ({ imgSrc, label, desc, classes }) => {
       </figure>
 
       <div>
-        <h3>{label}</h3>
+        <h3 className="font-semibold">{label}</h3>
 
         <p className="text-zinc-400 text-sm">{desc}</p>
       </div>

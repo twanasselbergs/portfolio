@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* BASE */
-
 html {
   scroll-behavior: smooth;
 }
@@ -11,8 +9,6 @@ html {
 body {
   @apply bg-zinc-900 text-zinc-50;
 }
-
-/* TYPOGRAPHY */
 
 .headline-1,
 .headline-2 {
@@ -27,14 +23,16 @@ body {
 }
 
 .headline-2 {
-  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
+  @apply text-[1.7rem] lg:text-4xl lg:leading-tight font-semibold;
+}
+
+.headline-3 {
+  @apply text-4xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
 }
 
 .title-1 {
-  @apply text-[22px] font-normal;
+  @apply text-[22px] font-semibold;
 }
-
-/* UTILITIES */
 
 .material-symbols-rounded {
   @apply w-[1em] h-[1em] overflow-hidden;
@@ -58,15 +56,17 @@ body {
 }
 
 .reveal-up {
-  @apply translate-y-20 opacity-0;
+  @apply translate-y-40 opacity-0;
 }
 
-/* COMPONENTS */
-
-/* Navbar */
+@media only screen and (max-width: 600px) {
+  .reveal-up {
+    @apply translate-y-20 opacity-0;
+  }
+}
 
 .menu-btn {
-  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-xl
+  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-full ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-xl
   hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95;
 }
 
@@ -94,8 +94,6 @@ body {
   -z-10 transition-[top,left] duration-500;
 }
 
-/* Button */
-
 .btn {
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-full font-medium
   text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
@@ -116,8 +114,6 @@ body {
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700/60 active:bg-zinc-800 duration-500;
 }
-
-/* Text Field */
 
 .label {
   @apply block text-zinc-200 text-sm font-normal mb-2;

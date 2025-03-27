@@ -40,8 +40,8 @@ const Contact = () => {
     <section id="contact" className="section">
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch ">
         <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-          <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
-            Contacteer me
+          <h2 className="headline-2 lg:max-w-[13ch] reveal-up">
+            Neem contact op
           </h2>
 
           <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[55ch] reveal-up">
@@ -58,10 +58,30 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="w-12 h-12 grid place-items-center ring-2 ring-inset ring-zinc-50/5 
                 rounded-2xl hover:bg-zinc-50 transition-[background-color, color] hover:text-zinc-950
-                active:bg-zinc-50/80 reveal-up duration-500">
+                active:bg-zinc-50/80 duration-500">
                 {icon}
               </a>
             ))}
+            <a
+              href="mailto:twanasselbergs@outlook.com"
+              className="w-12 h-12 grid place-items-center ring-2 ring-inset ring-zinc-50/5 
+                rounded-2xl hover:bg-zinc-50 transition-[background-color, color] hover:text-zinc-950
+                active:bg-zinc-50/80 duration-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-mail-icon lucide-mail">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
           </div>
         </div>
 

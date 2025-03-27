@@ -4,26 +4,74 @@ import PropTypes from "prop-types";
 const Navbar = ({ navOpen }) => {
   const lastActiveLink = useRef();
   const activeBox = useRef();
+  const sections = useRef([]);
+  const isClicking = useRef(false);
 
   const initActiveBox = () => {
-    activeBox.current.style.top = lastActiveLink.current.offsetTop + "px";
-    activeBox.current.style.left = lastActiveLink.current.offsetLeft + "px";
-    activeBox.current.style.width = lastActiveLink.current.offsetWidth + "px";
-    activeBox.current.style.height = lastActiveLink.current.offsetHeight + "px";
+    if (lastActiveLink.current) {
+      activeBox.current.style.top = lastActiveLink.current.offsetTop + "px";
+      activeBox.current.style.left = lastActiveLink.current.offsetLeft + "px";
+      activeBox.current.style.width = lastActiveLink.current.offsetWidth + "px";
+      activeBox.current.style.height =
+        lastActiveLink.current.offsetHeight + "px";
+    }
   };
 
-  useEffect(initActiveBox, []);
-  window.addEventListener("resize", initActiveBox);
+  useEffect(() => {
+    initActiveBox();
+    window.addEventListener("resize", initActiveBox);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (isClicking.current) return;
+
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const activeSection = entry.target.getAttribute("id");
+            const activeLink = document.querySelector(
+              `.nav-link[href="#${activeSection}"]`
+            );
+
+            if (activeLink) {
+              lastActiveLink.current?.classList.remove("active");
+              activeLink.classList.add("active");
+              lastActiveLink.current = activeLink;
+              initActiveBox();
+            }
+          }
+        });
+      },
+      { threshold: 0.55 }
+    );
+
+    sections.current.forEach((section) => observer.observe(section));
+
+    return () => {
+      window.removeEventListener("resize", initActiveBox);
+      observer.disconnect();
+    };
+  }, []);
 
   const activeCurrentLink = (event) => {
+    event.preventDefault();
+    isClicking.current = true;
+
+    const targetId = event.target.getAttribute("href").substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     lastActiveLink.current?.classList.remove("active");
     event.target.classList.add("active");
     lastActiveLink.current = event.target;
 
-    activeBox.current.style.top = event.target.offsetTop + "px";
-    activeBox.current.style.left = event.target.offsetLeft + "px";
-    activeBox.current.style.width = event.target.offsetWidth + "px";
-    activeBox.current.style.height = event.target.offsetHeight + "px";
+    initActiveBox();
+
+    setTimeout(() => {
+      isClicking.current = false;
+    }, 1800);
   };
 
   const navItems = [
@@ -54,6 +102,10 @@ const Navbar = ({ navOpen }) => {
       className: "nav-link",
     },
   ];
+
+  useEffect(() => {
+    sections.current = navItems.map(({ link }) => document.querySelector(link));
+  }, []);
 
   return (
     <nav className={"navbar " + (navOpen ? "active" : "")}>
