@@ -1,4 +1,4 @@
-# Apple
+# Portfolio
 
 
 ## Table of Contents
@@ -22,7 +22,6 @@ This portfolio was built as a personal project of mine. I use it for school and 
    - Supplies product data to the front-end.
    - Handles incoming orders by storing them in the database.
    - Uses WebSockets to broadcast new orders to the dashboard in real time.
-
 
 3. Back-end (`/dashboard`)
 
