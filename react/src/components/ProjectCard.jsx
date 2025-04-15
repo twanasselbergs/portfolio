@@ -21,7 +21,7 @@ const ProjectCard = ({
       <div className="flex items-center justify-between">
         <div>
           <h3 className="title-1 mb-3 ml-1.5">{title}</h3>
-          <div className="flex flex-wrap items-center gap-1.5 font-semibold">
+          <div className="flex flex-wrap items-center gap-1 font-semibold">
             {tags.map((label, index) => (
               <span
                 key={index}
