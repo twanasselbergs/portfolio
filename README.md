@@ -15,7 +15,7 @@ This portfolio was built as a personal project of mine. I use it for school and 
 1. Front-end (`/react`)
 
    - Uses Node and React to display the front-end.
-   - Smooth animations have been realized using Framer Motion and Lenis.
+   - Smooth animations have been realized by using Framer Motion and Lenis.
 
 
 ## Author(s)
