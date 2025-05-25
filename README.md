@@ -25,6 +25,4 @@ This portfolio was built as a personal project of mine. I use it for school and 
 
 ## License
 
-This project is licensed under the [MIT](LICENSE.md)
-License - see the [LICENSE.md](LICENSE.md) file for
-details
+This project is licensed under the [MIT](LICENSE) License - see the [LICENSE](LICENSE) file for details.
