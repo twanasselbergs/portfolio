@@ -4,54 +4,54 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-import ReviewCard from "./ReviewCard";
+import ReviewCard from "@/components/TestimonialCard";
 
 const reviews = [
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../images/people-1.jpg",
+    imgSrc: "../../img/testimonials/people-1.jpg",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../images/placeholder.png",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../images/placeholder.png",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Het was een fantastische ervaring! Ik heb er een mooie website voor teruggekregen.",
     name: "Arthur Nijlant",
-    imgSrc: "../../images/placeholder.png",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Focus6",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../images/placeholder.png",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Bedrijf",
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../images/placeholder.png",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Bedrijf",
   },
 ];
 
-const Review = () => {
+export default function Review() {
   useGSAP(() => {
     gsap.to(".scrub-slide", {
       scrollTrigger: {
@@ -67,7 +67,7 @@ const Review = () => {
   return (
     <section id="testimonials" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">Testimonials van klanten</h2>
+        <h2 className="headline-2 mb-8 reveal-up">Testimonials</h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">
           {reviews.map(({ content, name, imgSrc, company }, key) => (
@@ -83,6 +83,4 @@ const Review = () => {
       </div>
     </section>
   );
-};
-
-export default Review;
+}

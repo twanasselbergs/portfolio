@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
+import Navbar from "@/components/Navbar";
 
-const Header = () => {
+export default function Header() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <header className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
@@ -11,7 +11,7 @@ const Header = () => {
           <button
             className="menu-btn md:hidden"
             onClick={() => setNavOpen((prev) => !prev)}>
-            <span className="material-symbols-rounded">
+            <span className="material-symbols-rounded font-bold">
               {navOpen ? "close" : "menu"}
             </span>
           </button>
@@ -20,6 +20,4 @@ const Header = () => {
       </div>
     </header>
   );
-};
-
-export default Header;
+}

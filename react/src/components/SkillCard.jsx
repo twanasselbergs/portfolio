@@ -1,25 +1,24 @@
 import PropTypes from "prop-types";
 
-const SkillCard = ({ imgSrc, label, desc, classes }) => {
+const SkillCard = ({ imgSrc, label, desc, classes = "" }) => {
   return (
     <div
       className={
-        "flex items-center gap-3 ring-2 ring-inset ring-zinc-50/10 rounded-3xl p-3 hover:bg-zinc-800 hover:scale-[102%] duration-500 transition-[colors, scale] group" +
+        "flex items-center gap-3 rounded-full p-3 hover:bg-zinc-800/50 duration-500 transition-colors group " +
         classes
       }>
-      <figure className="bg-zinc-700/50 rounded-full overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors">
+      <figure className="overflow-hidden w-12 h-12 p-2 transition-transform group-hover:scale-105 transform duration-500">
         <img
           src={imgSrc}
           alt={label}
           width={32}
           height={32}
-          className="p-0.5"
+          className="rounded-full"
         />
       </figure>
 
       <div>
         <h3 className="font-semibold">{label}</h3>
-
         <p className="text-zinc-400 text-sm">{desc}</p>
       </div>
     </div>

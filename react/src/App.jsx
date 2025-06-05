@@ -9,9 +9,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
-import Work from "@/components/Work";
-import Review from "@/components/Review";
-import Contact from "@/components/Contact";
+import Work from "@/components/Portfolio";
+import Review from "@/components/Testimonial";
 import Footer from "@/components/Footer";
 
 export default function App() {
@@ -43,7 +42,6 @@ export default function App() {
         <Skills />
         <Work />
         <Review />
-        <Contact />
       </main>
       <Footer />
     </ReactLenis>

@@ -1,24 +1,25 @@
-import { ButtonPrimary, ButtonOutline } from "./Button";
+import { ButtonPrimary, ButtonOutline } from "@/components/Button";
 
-const Hero = () => {
+export default function Hero() {
   return (
     <section id="home" className="pt-28 lg:pt-36 2xl:pt-44">
       <div className="container lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center">
             <img
-              src="images/twan.png"
+              src="img/twan-asselbergs.png"
               alt="Twan Asselbergs"
               className="w-8 h-auto bg-cover rounded-full mr-3 md:mr-0 md:hidden"
             />
-            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+            <div className="flex font-semibold items-center text-zinc-400 text-sm">
               Twan Asselbergs
             </div>
             <a
               href="https://github.com/TwanAsselbergs"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-3 md:mx-2">
+              className="ml-1 hover:bg-zinc-800/50 rounded-full p-2 transition-colors
+                  duration-500">
               <svg
                 width="24"
                 height="24"
@@ -34,7 +35,9 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/twanasselbergs/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              className=" hover:bg-zinc-800/50 rounded-full p-2 transition-colors
+                  duration-500">
               <svg
                 width="24"
                 height="24"
@@ -49,14 +52,14 @@ const Hero = () => {
             </a>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Ik bouw moderne applicaties met een oog voor
+            Ik bouw moderne applicaties met oog voor
             <span className="text-2xl">&nbsp; gebruiksvriendelijkheid</span>
           </h2>
           <div className="flex items-center gap-3">
             <ButtonPrimary
-              href="../../Twan Asselbergs CV.pdf"
-              label="Download CV"
-              icon="download"
+              href="../../docs/twan-asselbergs-cv.pdf"
+              label="Bekijk CV"
+              icon="open_in_new"
               target="_blank"
               rel="noopener noreferrer"
             />
@@ -71,19 +74,17 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure
             className="w-full max-w-[480px] ml-auto 
-          bg-gradient-to-t from-gray-500/5 via-5% via-gray-500/5 to-70% rounded-[140px] overflow-hidden brightness-75">
+          bg-gradient-to-t from-gray-500/5 via-5% via-gray-500/5 to-70% rounded-full overflow-hidden brightness-75">
             <img
-              src="images/twan.png"
+              src="img/twan-asselbergs.png"
               alt="Twan Asselbergs"
               width={656}
               height={800}
-              className="w-full"
+              className="w-full rounded-full"
             />
           </figure>
         </div>
       </div>
     </section>
   );
-};
-
-export default Hero;
+}
