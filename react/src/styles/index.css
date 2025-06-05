@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50;
+}
+
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-1 {
+  @apply text-5xl leading-tight font-extrabold lg:text-[55px] lg:leading-[1.15];
+}
+
+.headline-2 {
+  @apply text-[1.7rem] lg:text-4xl lg:leading-tight font-extrabold;
+}
+
+.headline-3 {
+  @apply text-4xl leading-tight font-extrabold lg:text-[55px] lg:leading-[1.15];
+}
+
+.title-1 {
+  @apply text-[22px] font-semibold;
+}
+
+.material-symbols-rounded {
+  @apply w-[1em] h-[1em] overflow-hidden;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.container {
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
+}
+
+.img-box {
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover {
+  @apply w-full h-full object-cover;
+}
+
+.section {
+  @apply pt-20 lg:pt-32;
+}
+
+.reveal-up {
+  @apply translate-y-40 opacity-0;
+}
+
+@media only screen and (max-width: 600px) {
+  .reveal-up {
+    @apply translate-y-20 opacity-0;
+  }
+}
+
+.menu-btn {
+  @apply w-10 h-10 grid place-items-center transition-transform bg-zinc-800/50 backdrop-blur-3xl rounded-full active:scale-95;
+}
+
+.navbar {
+  @apply gap-2 absolute top-full mt-2 right-0 min-w-40 p-2 rounded-3xl lg:rounded-full scale-90 isolate bg-zinc-900/30 blur-0 opacity-0 invisible transition-[opacity,transform,filter]
+  md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-3xl;
+}
+
+.navbar.active {
+  @apply opacity-100 scale-100 visible;
+}
+
+.nav-link {
+  @apply grid items-center h-9 px-4 text-sm text-zinc-400 font-bold
+  hover:bg-zinc-800/30 rounded-full transition-colors duration-500;
+}
+
+.nav-link.active {
+  @apply text-zinc-300 duration-500;
+}
+
+.navbar .active-box {
+  @apply absolute bg-zinc-800/50 rounded-full
+  -z-10 transition-[top,left] duration-500;
+}
+
+.btn-primary {
+  @apply bg-zinc-800/50 hover:bg-zinc-800 rounded-full flex font-semibold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
+}
+
+.btn-outline .material-symbols-rounded {
+  @apply font-extrabold !important;
+}
+
+.btn-outline {
+  @apply hover:bg-zinc-800/50 rounded-full flex font-semibold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
+}
+
+.btn .material-symbols-rounded {
+  @apply text-[18px];
+}
+
+.label {
+  @apply block text-zinc-200 text-sm font-normal mb-2;
+}
+
+.text-field {
+  @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-2xl ring-1 ring-inset
+  ring-transparent transition-shadow hover:ring-zinc-50/5;
+}
+
+.text-field::placeholder {
+  @apply text-zinc-400;
+}
