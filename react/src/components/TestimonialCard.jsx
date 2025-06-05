@@ -18,7 +18,7 @@ export default function ReviewCard({ content, imgSrc, name, company }) {
         </figure>
 
         <div>
-          <p className="font-semibold">{name}</p>
+          <p className="font-extrabold">{name}</p>
 
           <p className="text-xs text-zinc-400">{company}</p>
         </div>

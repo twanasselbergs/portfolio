@@ -80,14 +80,14 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
-              <p className="mb-2 ml-3.5 reveal-up font-bold text-zinc-200">
+              <p className="mb-2 ml-3.5 reveal-up font-extrabold text-zinc-200">
                 Navigatie
               </p>
               <ul>
                 {sitemap.map(({ label, href }, key) => (
                   <li key={key}>
                     <a href={href} className="reveal-up flex">
-                      <span className="text-sm transition-colors rounded-full duration-500 font-semibold text-zinc-400 hover:bg-zinc-800/50 px-4 py-2">
+                      <span className="text-sm transition-colors rounded-full duration-500 font-extrabold text-zinc-400 hover:bg-zinc-800/50 px-4 py-2">
                         {label}
                       </span>
                     </a>
@@ -96,7 +96,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <p className="mb-2 ml-3.5 reveal-up font-bold text-zinc-200">
+              <p className="mb-2 ml-3.5 reveal-up font-extrabold text-zinc-200">
                 Socials
               </p>
               <ul>
@@ -107,7 +107,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="reveal-up flex">
-                      <span className="text-sm transition-colors rounded-full duration-500 font-semibold text-zinc-400 hover:bg-zinc-800/50 px-4 py-2">
+                      <span className="text-sm transition-colors rounded-full duration-500 font-extrabold text-zinc-400 hover:bg-zinc-800/50 px-4 py-2">
                         {label}
                       </span>
                     </a>

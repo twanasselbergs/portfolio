@@ -11,7 +11,7 @@ export default function Hero() {
               alt="Twan Asselbergs"
               className="w-8 h-auto bg-cover rounded-full mr-3 md:mr-0 md:hidden"
             />
-            <div className="flex font-semibold items-center text-zinc-400 text-sm">
+            <div className="flex font-extrabold items-center text-zinc-400 text-sm">
               Twan Asselbergs
             </div>
             <a

@@ -11,7 +11,7 @@ const reviews = [
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur is assumenda itaque delectus quaerat.",
     name: "Recensent",
-    imgSrc: "../../img/testimonials/people-1.jpg",
+    imgSrc: "../../img/testimonials/placeholder.png",
     company: "Bedrijf",
   },
   {

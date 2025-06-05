@@ -17,28 +17,28 @@ export default function About() {
           <div className="flex gap-7">
             <div className="flex flex-col flex-wrap">
               <div className="flex items-center md:mb-2">
-                <span className="text-2xl md:text-4xl font-semibold md:w-10">
+                <span className="text-2xl md:text-4xl font-extrabold md:w-10">
                   <CountUp start={0} end={21} duration={12} />
                 </span>
-                <span className="text-gray-500/80 ml-2 md:text-3xl font-semibold">
+                <span className="text-gray-500/80 ml-2 md:text-3xl font-extrabold">
                   +
                 </span>
               </div>
-              <p className="text-zinc-400 text-sm font-semibold">
+              <p className="text-zinc-400 text-sm font-extrabold">
                 Afgeronde Projecten
               </p>
             </div>
 
             <div className="flex flex-col flex-wrap">
               <div className="flex items-center md:mb-2">
-                <span className="text-2xl md:text-4xl font-semibold md:w-8">
+                <span className="text-2xl md:text-4xl font-extrabold md:w-8">
                   <CountUp start={0} end={2} duration={20} />
                 </span>
-                <span className="text-gray-500/80 md:text-3xl font-semibold">
+                <span className="text-gray-500/80 md:text-3xl font-extrabold">
                   +
                 </span>
               </div>
-              <p className="text-zinc-400 text-sm font-semibold">
+              <p className="text-zinc-400 text-sm font-extrabold">
                 Jaren Ervaring
               </p>
             </div>

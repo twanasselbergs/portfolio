@@ -28,19 +28,19 @@ body {
 }
 
 .headline-1 {
-  @apply text-5xl leading-tight font-extrabold lg:text-[55px] lg:leading-[1.15];
+  @apply text-5xl leading-tight font-black lg:text-[55px] lg:leading-[1.15];
 }
 
 .headline-2 {
-  @apply text-[1.7rem] lg:text-4xl lg:leading-tight font-extrabold;
+  @apply text-[1.7rem] lg:text-4xl lg:leading-tight font-black;
 }
 
 .headline-3 {
-  @apply text-4xl leading-tight font-extrabold lg:text-[55px] lg:leading-[1.15];
+  @apply text-4xl leading-tight font-black lg:text-[55px] lg:leading-[1.15];
 }
 
 .title-1 {
-  @apply text-[22px] font-semibold;
+  @apply text-[22px] font-extrabold;
 }
 
 .material-symbols-rounded {
@@ -88,7 +88,7 @@ body {
 }
 
 .nav-link {
-  @apply grid items-center h-9 px-4 text-sm text-zinc-400 font-bold
+  @apply grid items-center h-9 px-4 text-sm text-zinc-400 font-extrabold
   hover:bg-zinc-800/30 rounded-full transition-colors duration-500;
 }
 
@@ -102,15 +102,15 @@ body {
 }
 
 .btn-primary {
-  @apply bg-zinc-800/50 hover:bg-zinc-800 rounded-full flex font-semibold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
+  @apply bg-zinc-800/50 hover:bg-zinc-800 rounded-full flex font-extrabold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
 }
 
 .btn-outline .material-symbols-rounded {
-  @apply font-extrabold !important;
+  @apply font-black !important;
 }
 
 .btn-outline {
-  @apply hover:bg-zinc-800/50 rounded-full flex font-semibold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
+  @apply hover:bg-zinc-800/50 rounded-full flex font-extrabold items-center gap-4 text-sm text-zinc-400 justify-between py-2.5 px-4 transition-colors duration-500;
 }
 
 .btn .material-symbols-rounded {

@@ -53,7 +53,7 @@ const ProjectCard = ({
         </div>
       </div>
 
-      <div className="flex flex-nowrap whitespace-nowrap overflow-x-auto scrollbar-none max-w-full shrink-0 items-center gap-1 font-semibold">
+      <div className="flex flex-nowrap whitespace-nowrap overflow-x-auto scrollbar-none max-w-full shrink-0 items-center gap-1 font-extrabold">
         {tags.map((label, index) => (
           <span
             key={index}

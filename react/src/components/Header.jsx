@@ -11,7 +11,7 @@ export default function Header() {
           <button
             className="menu-btn md:hidden"
             onClick={() => setNavOpen((prev) => !prev)}>
-            <span className="material-symbols-rounded font-bold">
+            <span className="material-symbols-rounded font-extrabold">
               {navOpen ? "close" : "menu"}
             </span>
           </button>
