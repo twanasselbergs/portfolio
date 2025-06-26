@@ -1,12 +1,10 @@
 # Portfolio
 
-
 ## Table of Contents
 
-  - [Overview](#overview)
-  - [Author(s)](#authors)
-  - [License](#license)
-
+- [Overview](#overview)
+- [Author(s)](#authors)
+- [License](#license)
 
 ## Overview
 
@@ -17,11 +15,9 @@ This portfolio was built as a personal project of mine. I use it for school and 
    - Uses Node and React to display the front-end.
    - Smooth animations have been realized by using GSAP and Lenis.
 
-
 ## Author(s)
 
-- **Twan Asselbergs** - [TwanAsselbergs](https://github.com/TwanAsselbergs)
-
+- **Twan Asselbergs** - [TwanAsselbergs](https://github.com/twanasselbergs)
 
 ## License
 
