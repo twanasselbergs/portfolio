@@ -7,11 +7,11 @@ export default function About() {
         <div className="bg-zinc-800/10 p-7 md:p-12 rounded-[50px] reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[74ch]">
             "Hoi! Ik ben Twan, een gepassioneerde en leergierige student die
-            momenteel een versneld traject softwareontwikkeling volgt aan het
+            momenteel een versneld traject Software Development volgt aan het
             Grafisch Lyceum Utrecht. Ik heb een sterke interesse in full-stack
             development en ontwikkel graag gebruiksvriendelijke applicaties.
-            Mijn huidige ambitie is om mijn studie af te ronden en daarna door
-            te stromen naar de hbo-opleiding Software Engineering."
+            Naast mijn studie vind ik het leuk om voor kleinschalige bedrijven
+            websites te bouwen."
           </p>
 
           <div className="flex gap-7">
