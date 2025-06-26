@@ -15,7 +15,7 @@ export default function Hero() {
               Twan Asselbergs
             </div>
             <a
-              href="https://github.com/TwanAsselbergs"
+              href="https://github.com/twanasselbergs"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-1 hover:bg-zinc-800/50 rounded-full p-2 transition-colors
