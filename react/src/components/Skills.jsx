@@ -46,7 +46,7 @@ const skillsItem = [
   {
     imgSrc:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-    label: "Tailwind CSS",
+    label: "Tailwind",
     desc: "CSS Framework",
   },
   {
@@ -63,9 +63,9 @@ const skillsItem = [
   },
   {
     imgSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-    label: "Vite",
-    desc: "Buildtool",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+    label: "Vue",
+    desc: "JS Framework",
   },
   {
     imgSrc:
